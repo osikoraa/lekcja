@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+}
+
+.head{
+    grid-area: a;
+    border: 2px solid salmon;
+}
+
+.neck{
+    grid-area: b;
+    border: 2px solid salmon;
+}
+
+.chest{
+    grid-area: c;
+    border: 2px solid salmon;
+}
+
+.nav{
+    background-color: blueviolet;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stomach{
+    grid-area: d;
+    border: 2px solid salmon;
+}
+
+.legs{
+    grid-area: e;
+    border: 2px solid salmon;
+}
+
+.foot{
+    grid-area: f;
+    border: 2px solid salmon;
+}
+/* ul{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    width: 500%;
+    height: 50%;
+    background-color: cornsilk;
+}
+
+*/
+
